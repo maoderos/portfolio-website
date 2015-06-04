@@ -1,0 +1,34 @@
+@import 'reset_css';
+
+body {
+
+	.header {
+		background-image: url(../header_img.png);
+		background-size: cover;
+		width: auto;
+		height: 690px;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		text-align: center;
+		.header-text: {
+			vertical-align: middle;
+		}
+	}
+	.about {
+		padding-top: 20px;
+		img {
+			float: center;
+		}
+		h1 {
+			text-align: center;
+		}
+		h3 {
+			text-align: center;
+		}
+	}
+}
+
+		

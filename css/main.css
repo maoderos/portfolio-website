@@ -1,0 +1,29 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body .header {
+  background-image: url(../header_img.png);
+  background-size: cover;
+  width: auto;
+  height: 690px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  .header-text-vertical-align: middle; }
+body .about {
+  padding-top: 20px; }
+  body .about img {
+    float: center; }
+  body .about h1 {
+    text-align: center; }
+  body .about h3 {
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
