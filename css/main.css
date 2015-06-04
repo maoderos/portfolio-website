@@ -15,11 +15,10 @@ body .header {
   right: 0;
   left: 0;
   margin: auto;
-  text-align: center;
-  .header-text-position: absolute;
-  .header-text-top: 60px; }
+  text-align: center; }
 body .about {
   padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center; }
   body .about img {
     float: center;
@@ -35,5 +34,29 @@ body .about {
     body .about .about-text h1 {
       font-size: 30px;
       padding-bottom: 30px; }
+    body .about .about-text h3 {
+      line-height: 25px; }
+body .services {
+  background-image: url("../services_bg.png");
+  background-size: cover;
+  text-align: center; }
+  body .services img {
+    float: center;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px; }
+  body .services .services-text {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 1260px; }
+  body .services h1 {
+    padding-bottom: 30px;
+    font-size: 30px; }
+  body .services h3 {
+    line-height: 25px; }
 
 /*# sourceMappingURL=main.css.map */

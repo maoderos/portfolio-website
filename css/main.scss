@@ -13,14 +13,11 @@ body {
 		left: 0;
 		margin: auto;
 		text-align: center;
-		.header-text: {
-			position: absolute;
-			top: 60px;
-
-		}
+		
 	}
 	.about {
 		padding-top: 100px;
+		padding-bottom: 100px;
 		text-align: center;
 		img {
 			float: center;
@@ -38,8 +35,38 @@ body {
 				font-size: 30px;
 				padding-bottom: 30px;
 			}
+			h3 {
+				line-height: 25px;
+			}
 
 		}	
+	}
+	.services {
+		background-image: url("../services_bg.png");
+		background-size: cover;
+		text-align: center;
+		img {
+			float: center;
+			position: relative;
+			padding-top: 100px;
+			padding-bottom: 100px;
+		}
+		.services-text {
+			position: absolute;
+			margin-left: auto;
+			margin-right: auto;
+			left: 0;
+			right: 0;
+			text-align: center;
+			top: 1260px;
+		}
+		h1 {
+			padding-bottom: 30px;
+			font-size: 30px;
+		}
+		h3 {
+			line-height: 25px;
+		}
 	}
 }
 
