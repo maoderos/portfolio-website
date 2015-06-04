@@ -14,20 +14,32 @@ body {
 		margin: auto;
 		text-align: center;
 		.header-text: {
-			vertical-align: middle;
+			position: absolute;
+			top: 60px;
+
 		}
 	}
 	.about {
-		padding-top: 20px;
+		padding-top: 100px;
+		text-align: center;
 		img {
 			float: center;
+			position: relative;
 		}
-		h1 {
+		.about-text {
+			position: absolute;
+			margin-left: auto;
+			margin-right: auto;
+			left:  0;
+			right: 0;
 			text-align: center;
-		}
-		h3 {
-			text-align: center;
-		}
+			top: 750px;
+			h1 {
+				font-size: 30px;
+				padding-bottom: 30px;
+			}
+
+		}	
 	}
 }
 
