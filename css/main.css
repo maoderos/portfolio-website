@@ -8,14 +8,21 @@ ol {
 body .header {
   background-image: url(../header_img.png);
   background-size: cover;
+  text-align: center;
   width: auto;
-  height: 690px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  text-align: center; }
+  height: 710px; }
+  body .header .header-text {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 285px; }
+    body .header .header-text h1 {
+      font-size: 35px; }
+    body .header .header-text h2 {
+      font-size: 15px; }
 body .about {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -30,7 +37,7 @@ body .about {
     left: 0;
     right: 0;
     text-align: center;
-    top: 750px; }
+    top: 765px; }
     body .about .about-text h1 {
       font-size: 30px;
       padding-bottom: 30px; }
@@ -52,11 +59,109 @@ body .services {
     left: 0;
     right: 0;
     text-align: center;
-    top: 1260px; }
+    top: 1275px; }
   body .services h1 {
     padding-bottom: 30px;
     font-size: 30px; }
   body .services h3 {
     line-height: 25px; }
+body .what-we-do {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center; }
+  body .what-we-do img {
+    float: center;
+    position: relative; }
+  body .what-we-do h1 {
+    font-size: 30px;
+    padding-bottom: 70px; }
+  body .what-we-do .what-we-do-content {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    top: 1730px; }
+    body .what-we-do .what-we-do-content img {
+      padding-bottom: 10px; }
+    body .what-we-do .what-we-do-content h2 {
+      padding-bottom: 10px;
+      font-size: 22px; }
+    body .what-we-do .what-we-do-content h3 {
+      padding-bottom: 80px;
+      line-height: 25px; }
+body .our-works {
+  padding-bottom: 100px; }
+  body .our-works ul {
+    text-align: center; }
+    body .our-works ul li {
+      display: inline; }
+    body .our-works ul .topworkz img {
+      position: relative;
+      width: 29%;
+      height: 25%; }
+    body .our-works ul .topworkz h2 {
+      position: absolute;
+      left: 40px;
+      top: 3160px;
+      text-align: left; }
+    body .our-works ul .joint img {
+      position: relative;
+      width: 40%;
+      height: 25%; }
+    body .our-works ul .joint h2 {
+      position: absolute;
+      right: 400px;
+      left: 0;
+      top: 3160px;
+      text-align: center; }
+    body .our-works ul .market img {
+      position: relative;
+      width: 29%;
+      height: 25%; }
+    body .our-works ul .market h2 {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: right;
+      right: 255px;
+      left: 0;
+      top: 3160px; }
+    body .our-works ul .worktop img {
+      position: relative;
+      width: 29%;
+      height: 25%; }
+    body .our-works ul .worktop h2 {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      right: 0;
+      left: 40px;
+      text-align: left;
+      top: 3330px; }
+    body .our-works ul .lable img {
+      position: relative;
+      width: 40%;
+      height: 25%; }
+    body .our-works ul .lable h2 {
+      position: absolute;
+      right: 400px;
+      left: 0;
+      top: 3330px;
+      text-align: center; }
+    body .our-works ul .kyiv {
+      text-align: right; }
+      body .our-works ul .kyiv img {
+        position: relative;
+        width: 29%;
+        height: 25%; }
+      body .our-works ul .kyiv h2 {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+        right: 298px;
+        left: 0;
+        top: 3330px; }
 
 /*# sourceMappingURL=main.css.map */
